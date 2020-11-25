@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+img {
+  width: 100%
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ------------------------- */
+.barra-trass {
+  z-index: 2;
+  position: absolute;
+  top: 125px;
+  left: 0px;
+  width: 100%;
+  height: 85px;
+}
+/* ----------------------- Diegonciox - logo --------------------*/
+.diegonciox-logo {
+  z-index: 2;
+  top: 50px;
+  width: 250px;
+  height: 85px;
+  background: black;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ----------------- links de menu -------------*/
+nav {
+  text-align: center;
+  align-items: center;
+  z-index: 2;
+}
+.opciones-menu {
+  align-items: center;
+  text-align: center;
+  font: normal 900 16px/19px Roboto;
+  letter-spacing: 0px;
+  color: #828282;
+  text-decoration: none;
+  padding: 34px 14px;
+  display: inline-block;
+}
+/*Contenedor de reticulas*/
+.contenedor {
+  padding: 30px 138px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Reticula ---------------------------------------------------*/
+.reticula {
+  width: 33.3%;
+  height: auto;
+  margin: auto;
+  margin-top: 86px;
+  display: grid;
+  flex-wrap: wrap;
+  float: left; /*elementos saltan de linea en vez de reducirse*/
+}
+/* Efectos de la reticula -------------------------- Diegonciox --------------------- */
+.reticula img {
+  opacity: 1;
+  transition: opacity 0.3s, filter 0.3s;
+  filter: drop-shadow(0px 0px 0px);
+  outline: solid 5px white
+}
+.reticula img:hover {
+  opacity: 1;
+  filter: drop-shadow(0px 0px 40px black);
+  z-index: 1;
+  overflow: hidden
+}
+/* --------------------------------- Enlaces ------------------*/
+nav a:hover {
+  color: #db8b49;
+}
+nav a:focus {
+  color: #ef7918
+}
+nav a:active {
+  color: #db8b49
+}
+/* ------------------ Proyectos IN --------------------*/
+.texto-proyectos {
+  float: left;
+  margin-top: 250px;
+  margin-left: 138px;
+  max-width: 35%;
+  min-width: 150px;
+}
+/* Fuente roboto títulos */
+.texto-proyectos h1 {
+  text-align: left;
+  font: normal normal 900 50px/100px Roboto;
+  letter-spacing: 0px;
+  color: black;
+}
+/* subtítulos */
+.texto-proyectos h2 {
+  margin-top: -15px;
+  text-align: left;
+  font: normal normal 400 20px/24px Roboto;
+  letter-spacing: 0px;
+  color: #5E5E5E;
+}
+.texto-proyectos p {
+  padding-top: 25px;
+  text-align: left;
+  font: normal normal normal 20px/24px Roboto;
+  letter-spacing: 0px;
+  color: #828282;
+  opacity: 1;
+}
+/* espacidor --------------------*/
+.espaciador {
+  width: 100%;
+  float: right;
+  height: 1px
+}
+/* IMG - proyectos IN ----------------------*/
+.imagen-proyecto {
+  float: right;
+  width: 45%;
+  margin-top: 85px;
+  max-height: auto;
+  height: 800px;
+}
+/* Boton contacto -----*/
+.boton {
+  margin-top: 25px;
+  float: left;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  font: normal normal normal 20px/20px Roboto;
+  font-variant: small-caps;
+}
+.boton a {
+  color: white;
+  text-decoration: none;
+}
